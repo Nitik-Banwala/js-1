@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/src/output.css">
+    <link rel="stylesheet" href="src/input.css">
+</head>
+
+<body>
+    <div class="flex flex-col h-screen w-full items-center justify-center">
+        <div class="text-[#808080] text-3xl mb-6">Advance Counter app</div>
+        <div class="text-center shadow-[0px_11px_44px_-10px_rgba(0,0,0,0.25)] w-[400px] h-52 flex flex-col justify-center rounded-[10px]">
+            <div id="display" class="mb-3">
+                <h1 class="text-2xl">0</h1>
+            </div>
+            <div>
+                <button id="addbtn" class=" text-[#128DFF] border border-[#128DFF] rounded-[5px] w-28 h-11">Add
+                    one</button>
+                <button id="save"
+                    class="bg-linear-to-r from-[#128DFF] to-[#1444EF] rounded-[5px] w-28 h-11 text-white">Save</button>
+            </div>
+            <div>
+                <p class="text-[#808080] pt-1">Previous values</p>
+                <p id="saved" class="text-1xl pt-1.5"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+
+</html>
